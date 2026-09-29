@@ -1,0 +1,32 @@
+# For sane default behavior, ignore everything and whitelist your files here with ! as NOT
+*
+
+# Root
+!.gitignore
+!README.md
+!requirements.txt
+
+# Don't forget to whitelist the directories themselves or we can't get in there to whitelist contents
+
+# Docs 
+!docs/
+!docs/architecture.md
+!docs/client_setup.md
+!docs/USAGE.md
+
+# Scripts
+!scripts/
+!scripts/install_reqs.sh
+!scripts/create_testdata.py
+!scripts/run_all.py
+!scripts/update_reqs.sh
+
+# Source
+!src/
+!src/__init__.py
+!src/config.py
+!src/logger.py
+!src/mailer.py
+!src/main.py
+!src/parser.py
+!src/template.py
